@@ -14,12 +14,12 @@ body {
 }
 
 a {
-  color: #2487ce;
+  color: #eadf18;
   text-decoration: none;
 }
 
 a:hover {
-  color: #469fdf;
+  color: #d4f12f;
   text-decoration: none;
 }
 
@@ -42,7 +42,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #2487ce;
+  background: #eac11e;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -56,7 +56,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #3e9bdd;
+  background: #eac11e;
   color: #fff;
 }
 
@@ -84,7 +84,7 @@ h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #2487ce;
+  border: 6px solid #eac11e;
   border-top-color: #fff;
   border-bottom-color: #fff;
   border-radius: 50%;
@@ -213,7 +213,7 @@ h6 {
 
 .navbar .getstarted,
 .navbar .getstarted:focus {
-  background: #2487ce;
+  background: #eac11e;
   padding: 8px 20px;
   margin-left: 30px;
   border-radius: 4px;
@@ -1044,7 +1044,7 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: #2487ce;
+  background: #eac11e;
   background-size: cover;
   padding: 60px 0;
 }
@@ -1075,7 +1075,7 @@ section {
 
 .cta .cta-btn:hover {
   background: #fff;
-  color: #2487ce;
+  color: #eac11e;
 }
 
 /*--------------------------------------------------------------
