@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { CircleUser, Menu, Package2, Search } from "lucide-react"
+import { CircleUser, Menu, Package2, Cpu, Search } from "lucide-react"
 
 import { Button } from "@/components/ui/button"
 import {
@@ -22,18 +22,19 @@ import {
 import { Input } from "@/components/ui/input"
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
 import ModeToggle from "./toggle-dark"
+import TabsDemo from "./tabsdemo"
 
 export function Header() {
   return (
-    <div className="flex min-h-screen w-full flex-col">
+    <div className="flex w-full flex-col">
       <header className="sticky top-0 flex h-16 items-center gap-4 border-b bg-background px-4 md:px-6">
         <nav className="hidden flex-col gap-6 text-lg font-medium md:flex md:flex-row md:items-center md:gap-5 md:text-sm lg:gap-6">
           <Link
-            href="#"
+            href="/"
             className="flex items-center gap-2 text-lg font-semibold md:text-base"
           >
-            <Package2 className="h-6 w-6" />
-            <span className="sr-only">Acme Inc</span>
+            <Cpu className="h-6 w-6"/>
+            <span className="sr-only">Tianreformis</span>
           </Link>
           <Link
             href="#"
@@ -48,19 +49,19 @@ export function Header() {
             Orders
           </Link>
           <Link
-            href="#"
+            href="https://kiss.kanaan.sch.id"
             className="text-muted-foreground transition-colors hover:text-foreground"
           >
             Kiss_Kanaan
           </Link>
           <Link
-            href="#"
+            href="https://github.com/tianreformis"
             className="text-muted-foreground transition-colors hover:text-foreground"
           >
             Github
           </Link>
           <Link
-            href="#"
+            href="https://wa.me/6285247037566"
             className="text-muted-foreground transition-colors hover:text-foreground"
           >
             Contact
@@ -81,7 +82,7 @@ export function Header() {
           <ModeToggle />
         </div>
       </header>
-      
+    
     </div>
   )
 }
