@@ -31,12 +31,30 @@ const notifications = [
 type CardProps = React.ComponentProps<typeof Card>
 
 
-export function CardDemo({ className, ...props }: CardProps) {
+export function CardDemo(
+  { 
+    className, 
+    title,
+  subtitle,
+  xlink,
+  xilink,
+  xiilink,
+    ...props 
+  }
+  : 
+  CardProps&{
+    title:string,
+    subtitle:string,
+    xlink:string,
+    xilink:string,
+    xiilink:string,
+  },  
+) {
   return (
     <Card className={cn("w-[380px]", className)} {...props}>
       <CardHeader>
-        <CardTitle>Tahun Pelajaran 2024/2025</CardTitle>
-        <CardDescription>Materi dan Bahan Ajar</CardDescription>
+        <CardTitle>{title}</CardTitle>
+        <CardDescription>{subtitle}</CardDescription>
       </CardHeader>
 
       <CardFooter className="flex flex-col gap-2">
@@ -46,20 +64,20 @@ export function CardDemo({ className, ...props }: CardProps) {
             TK A
           </Button>
         </Link>
-        <Link href="https://drive.google.com/drive/folders/1EOH6bIn4OecrwmxpWMmzBStpCprdIlKx?usp=sharing" className="w-full" >
+        <Link href={xlink} className="w-full" target="_blank" rel="noopener noreferrer">
           <Button className="w-full" >
             <Check className="mr-2 h-4 w-4" />
             SMA - KELAS X
           </Button>
         </Link>
-        <Link href="https://drive.google.com/drive/folders/1Ds033kLWScLwm-E0VHk3U8WtcCjPqb0s?usp=sharing" className="w-full" >
+        <Link href={xilink} className="w-full" target="_blank" rel="noopener noreferrer">
           <Button className="w-full" >
             <Check className="mr-2 h-4 w-4" />
             SMA - KELAS XI A
           </Button>
         </Link>
 
-        <Link href="https://drive.google.com/drive/folders/1KWJsyQvV_TePTj3VDC6wt79ZDlFtP2Pl?usp=sharing" className="w-full" >
+        <Link href={xiilink} className="w-full" target="_blank" rel="noopener noreferrer">
           <Button className="w-full" >
             <Check className="mr-2 h-4 w-4" />
             SMA - KELAS XII
