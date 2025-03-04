@@ -26,7 +26,23 @@ export default function Home() {
         xilink="https://drive.google.com/drive/folders/1Ds033kLWScLwm-E0VHk3U8WtcCjPqb0s?usp=sharing"
         xiilink="https://drive.google.com/drive/folders/1KWJsyQvV_TePTj3VDC6wt79ZDlFtP2Pl?usp=sharing"
         />
-        <CardDemo2023 />
+
+<CardDemo 
+        title="Tahun Pelajaran 2023/2024"
+        subtitle = "Semester II"
+        xlink="https://drive.google.com/drive/folders/1Aw9jO66UNUoJCHS7uNMP3pLb6lI6M17A?usp=drive_link"
+        xilink="https://drive.google.com/drive/folders/1B6VwNEzjZquR8R8ZuDcbG9D8GnutcjYm?usp=drive_link"
+        xiilink="https://drive.google.com/drive/folders/1B1d5B79bDN-hWj1AmewrxH-7v61Yk2cP?usp=drive_link"
+        />
+
+<CardDemo 
+        title="Tahun Pelajaran 2023/2024"
+        subtitle = "Semester I"
+        xlink="https://drive.google.com/drive/folders/11XBkM1Pxn7jXDWh3I4Di7XT-YojxV0F7?usp=drive_link"
+        xilink="https://drive.google.com/drive/folders/11VjYbRiNOFY7_dK8frSZEfgvAA4w1kAK?usp=drive_link"
+        xiilink="https://drive.google.com/drive/folders/13OB7cBPM_nzl2tOXKNGbiJyAReoJpifT?usp=drive_link"
+        />
+        
       </div>
 
 
