@@ -73,7 +73,7 @@ export function CardDemo(
         <Link href={xilink} className="w-full" target="_blank" rel="noopener noreferrer">
           <Button className="w-full" >
             <Check className="mr-2 h-4 w-4" />
-            SMA - KELAS XI A
+            SMA - KELAS XI
           </Button>
         </Link>
 
